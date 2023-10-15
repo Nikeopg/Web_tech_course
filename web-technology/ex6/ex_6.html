@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Общая информация</legend>
+                <div>
+                    <label for="surname">Фамилия</label>
+                    <input type="surname" type="text" name="FIO" placeholder="Иванов">
+                </div>
+                <div>
+                        <label for="name">Имя</label>
+                        <input type="name" type="text" name="FIO" placeholder="Сергей">
+                </div>
+                <div>
+                    <label for="lastname">Отчество</label>
+                    <input type="lastname" type="text" name="FIO" placeholder="Александрович">
+                </div>
+                <div>
+                    <label for="email">email</label>
+                    <input type="email" type="text" name="email" placeholder="html@bk.ru">
+                </div>
+        </fieldset>
+        
+        <fieldset>
+            <div>  
+                <legend>Пол</legend>       
+                <label for="man">М</label>
+                <input type="radio" id="man" name="gender" value="man">
+                    
+                <label for="woman">Ж</label>
+                <input type="radio" name="gender" id="woman" value="woman">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Хобби</legend>
+            <div>
+                <input type="checkbox" name="hobby" id="drawing" value="drawing">
+                <label for="drawing">Рисование</label>
+                
+                <input type="checkbox" name="hobby" id="reading" value="reading">
+                <label for="reading">Чтение</label>
+            
+                <input type="checkbox" name="hobby" id="knitting" value="knitting">
+                <label for="knitting">Вязание</label>
+            
+                <input type="checkbox" name="hobby" id="cooking" value="cooking">
+                <label for="cooking">Кулинария</label>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>

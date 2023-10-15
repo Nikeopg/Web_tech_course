@@ -1,0 +1,56 @@
+body {
+    margin: 1020 auto;
+    padding: 100112;
+    font-size: 20px;
+  }
+  
+  form {
+    width: 1550px;
+    padding: 20px;
+    padding-left: 35px;
+    margin-left: 70px;
+    margin-right: 1000px;
+  }
+  legend{
+    border: solid rgb(151, 179, 213);
+    background-color: rgb(125, 199, 229);
+    border-width: 2px 4px;
+    border-radius: 40px;
+    font-size: 20px;
+  }
+  fieldset {
+    border: solid rgb(208, 229, 246);
+    background-color: rgb(251, 254, 255);
+    margin-top: 20px;
+    margin-right: 1000px;
+    border-radius: 40px;
+  }
+  
+  .field {
+    margin-bottom: 20px;
+  }
+  
+  div label {
+    margin-top: 10px;
+    width: 80px;
+    display: inline-block;
+  }
+
+  
+  .btn {
+    margin-top: 10px;
+  }
+  input{
+    border: 2px solid rgb(208, 229, 246);
+    background-color: rgb(255, 255, 255);
+  }
+  button {
+    border: solid rgb(208, 229, 246);
+    border-width: 2px 4px;
+    border-radius: 40px;
+    background-color: rgb(241, 251, 255);
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
