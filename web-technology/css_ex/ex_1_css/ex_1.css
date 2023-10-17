@@ -1,7 +1,26 @@
-body {
-    font-family: Roboto;
-    color: #000;
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-size: 40px;
+    overflow: hidden;
 }
-h2{
+th, td{
+    border: 1px solid black;
+    padding: 10px;
     text-align: center;
+    position: relative;
+}
+
+td:hover {
+    background-color: #ff8052;
+}
+
+th:hover {
+    color: #ffffff;
+    background-color: #d84315;
+}
+
+body{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 30px;
 }
