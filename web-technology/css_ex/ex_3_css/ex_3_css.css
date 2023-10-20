@@ -1,12 +1,95 @@
-#title{
-    color: #fe1b1b;
-    font-size: 24px
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto;
+    background: #fffded;
+}
+.header-title{
+    position: absolute;
+    width: 1440px;
+    height: 155px;
+    left: 0px;
+    top: 0px;
+    height: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4E3835;
+    }
+.title {
+    position: absolute;
+    width: 211px;
+    height: 56px;
+    left: 614px;
+    top: 49px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #E6D5B9;
 }
 
-p {
-   font-size: 14px; 
+.header-image{
+    background: url(https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80);
+    height: 700px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    }
+.join {
+    position: absolute;
+    width: 1440px;
+    left: 0px;
+    top: 680px;
+    background: #4E3835;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-
-.name{
-    color: #6d48d7;
+.join-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #E6D5B9;
+}
+.join-text{
+    position: absolute;
+    width: 697px;
+    height: 206px;
+    left: 262px;
+    top: 186px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;    
+}
+.email{    
+    position: absolute;
+    width: 697px;
+    height: 206px;
+    left: 262px;
+    text-decoration: none;   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #E6D5B9;
 }

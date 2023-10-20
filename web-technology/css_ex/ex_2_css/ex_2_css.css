@@ -1,26 +1,89 @@
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
-/*далее должны идти свойства в соответствие с заданием*/  
-
+body{
+    font-family: Roboto;
+    background: #fffded;
+}
 .container{
-    background: url(https://images.unsplash.com/photo-1637085046560-43cc153c86e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80);
-    background-position: 40% 10%;
-    width: 300px;
-    height: 300px;
-}   
-
-#title{
-    padding-top: 125px;
-    color: #e3d1b8;
-    font-size: 40px;
-    text-align: center;
+    margin: 0 150px;
 }
-
-p{
-    padding-top: 80px;
-    color: #110301;
-    font-size: 14px;
+.main-title{
+    width: 211px;
+    height: 56px;
+    left: 615px;
+    top: 55px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
     text-align: center;
+    text-transform: uppercase;
+
+color: #753C20;
+}
+.block {
+    display: flex;
+    margin-bottom: 55px;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+.block-text {
+    margin: 0 55px;
+}
+.title {
+    width: 134px;
+    height: 42px;
+    left: 889px;
+    top: 519px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #D89B82;
+}
+.text {
+    width: 697px;
+    height: 206px;
+    left: 590px;
+    top: 616px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+color: #000000;;
+}
+.join-title{
+    width: 574px;
+    height: 42px;
+    left: 432px;
+    top: 889px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #E78326;
+}
+.join-text{
+    margin-bottom: 55px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+.email{
+ text-decoration:none;
+ color: #E78326;
 }
