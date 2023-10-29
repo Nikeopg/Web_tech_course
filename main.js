@@ -1,13 +1,3 @@
-s = "Andsirdaarrevarariarewbutovearrmararan"
-sub_s = "re"
+const result = 6 % 7
 
-
-function testRegExp(s, sub_s) {
-    var myPattern = new RegExp(sub_s, 'g');
-    var result = s.match(myPattern);
-    result = result.join(", ")
-    console.log(result);
-}
-
-
-testRegExp(s, sub_s);
+console.log(result)

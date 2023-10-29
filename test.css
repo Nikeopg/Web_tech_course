@@ -1,0 +1,161 @@
+/* coffee 1.0 */
+
+position: relative;
+width: 1440px;
+height: 1048px;
+
+background: #FFFDED;
+
+
+/* Арабика */
+
+position: absolute;
+width: 140px;
+height: 42px;
+left: 865px;
+top: 166px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #D89B82;
+
+
+
+/* Робуста */
+
+position: absolute;
+width: 134px;
+height: 42px;
+left: 889px;
+top: 519px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #D89B82;
+
+
+
+/* Присоединяйся к нашей команде */
+
+position: absolute;
+width: 574px;
+height: 42px;
+left: 432px;
+top: 889px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #E78326;
+
+
+
+/* image 1 */
+
+position: absolute;
+width: 400px;
+height: 300.28px;
+left: 150px;
+top: 166px;
+
+background: url(image.png);
+
+
+/* image 2 */
+
+position: absolute;
+width: 400px;
+height: 300px;
+left: 150px;
+top: 519px;
+
+background: url(image.png);
+
+
+/* Составляет львиную долю всего производимого в мире кофе — 70 %, несмотря на то, что этот вид сложен в выращивании, и, следовательно, дороже, чем другие виды. Он завоевал такую популярность благодаря нежному и тонкому вкусу. Вид арабика имеет немало разновидностей, названия которых хорошо знакомы ценителям. Наиболее известные разновидности арабики: бурбон, мокко, типика, абиссиника, марагоджал. */
+
+position: absolute;
+width: 700px;
+height: 206px;
+left: 590px;
+top: 262px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+
+
+
+/* Более крепкий и менее элегантный. Несмотря на простоту выращивания и более высокую урожайность, этот кофе относится к более низкому классу, чем арабика. Робуста, как правило, добавляют в кофейные смеси для придания им крепости. Разновидности робусты: конильон (Бразилия), куилу (Конго), ява-инеак (Индонезия), конженсис. */
+
+position: absolute;
+width: 697px;
+height: 206px;
+left: 590px;
+top: 616px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+
+
+
+/* пиши на почту: coffee-team@mail.com */
+
+position: absolute;
+width: 697px;
+height: 206px;
+left: 374px;
+top: 965px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* h1 КОФЕ 1.0 */
+
+position: absolute;
+width: 211px;
+height: 56px;
+left: 615px;
+top: 55px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+text-transform: uppercase;
+
+color: #753C20;
+
